@@ -1,0 +1,130 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+  
+ 
+}
+#ulist {
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-top: 29px;
+}
+
+#ulist li {
+    margin-right: 10px;
+    margin-top: 2.4vh;
+}
+
+input::placeholder {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 0.2rem;
+
+}
+
+#place::after {
+    background-color: white;
+}
+
+#place {
+    background-color: rgb(242, 239, 239);
+    height: 2.2rem;
+    border: none;
+}
+
+.font {
+    font-size: 10px;
+
+
+}
+
+#icon {
+    justify-content: space-evenly;
+    font-size: 13px;
+    color: rgb(93, 89, 89);
+
+}
+
+.hero-img{
+    width:100% ;
+
+}
+
+.hero-img2{
+    width:100% ;
+
+
+}
+
+.hero-img:nth-child(4){
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.slide-height{
+    height: 45.5vh;
+}
+
+/* indicator */
+.carousel-indicators [data-bs-target] {
+    background-color: lightgrey;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: darkgrey; 
+}
+
+
+.carousel-indicators {
+    bottom: -43px; 
+}
+
+
+.offers{
+    margin-top: 5vh;
+}
+
+.category{
+    margin-bottom: 3vh;
+}
+
+.hover-image {
+    cursor: pointer;
+}
+
+
+#box{
+    height:1px;
+    width:1px;
+    background-color:transparent;
+    background-size:cover;
+    position:relative;
+    }
+    
+    #b1{
+    height:290px;
+    width:55px;
+    background-color:#545766;
+    color:white;
+    position:fixed;
+    left:1444px;
+    top:290px;
+    z-index: 999;
+    
+    }
+    
+    #b1 h3{
+        rotate: -90deg;
+        white-space: nowrap;
+        margin-top:29vh;
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+        
+    }
